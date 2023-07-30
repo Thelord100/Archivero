@@ -1,0 +1,142 @@
+#
+# SternalBoard - Scoreboard plugin for Spigot and paper servers
+#
+# Version: 2.2.0
+# Author: xism4 and Jonakls
+#
+# Support discord: https://discord.com/invite/jmWk4pR2SG
+# Spigot: https://www.spigotmc.org/resources/sternalboard-lightweight-animated-scoreboard.89245/
+# Polymart: https://polymart.org/resource/sternalboard-lightweight.1379
+# MC-Market: https://www.mc-market.org/resources/20395/
+# GitHub: https://github.com/ShieldCommunity/SternalBoard
+#
+# If u have any problem, contact us in discord or report issue in GitHub section
+# Issues: https://github.com/ShieldCommunity/SternalBoard/issues
+
+settings:
+  animated: false
+  # Select scoreboard mode: NORMAL, WORLD, PERMISSION
+  #
+  # NORMAL - scoreboard for all players
+  # WORLD - scoreboard per world, u can configure in scoreboard-world section
+  # PERMISSION - scoreboard per permission, u can configure in scoreboard-permission section
+  mode: NORMAL
+  scoreboard-interval-update: 20
+  scoreboard:
+    title: '&x&1&b&f&f&c&8&lB&x&4&1&f&9&a&8&lO&x&6&7&f&2&8&8&lK&x&8&d&e&c&6&9&lU &x&b&3&e&5&4&9&lB&x&d&9&d&f&2&9&lO&x&f&f&d&8&0&9&lX'
+    lines:
+      - '&8&m+-------------------+'
+      - ''
+      - '&a&l▼ &x&1&b&f&f&c&8&lI&x&6&7&f&2&8&8&lN&x&b&3&e&5&4&9&lF&x&f&f&d&8&0&9&lO:'
+      - '&f● &x&1&b&f&f&c&8&lN&x&4&9&f&7&a&2&lO&x&7&6&e&f&7&c&lM&x&a&4&e&8&5&5&lB&x&d&1&e&0&2&f&lR&x&f&f&d&8&0&9&lE: &F&L%player_name%'
+      - '&f● &x&1&b&f&f&c&8&lR&x&5&4&f&5&9&8&lA&x&8&d&e&c&6&9&lN&x&c&6&e&2&3&9&lG&x&f&f&d&8&0&9&lO: &f&l%vault_rank%'
+      - '&f● &x&1&b&f&f&c&8&lP&x&6&7&f&2&8&8&lI&x&b&3&e&5&4&9&lN&x&f&f&d&8&0&9&lG: &F&L%player_ping%'
+      - ''
+      - '&a&l▼ &#1bffc8&lS&#54f598&lT&#8dec69&lA&#c6e239&lT&#ffd809&lS:'
+      - '&f● &x&1&b&f&f&c&8&lS&x&4&9&f&7&a&2&lE&x&7&6&e&f&7&c&lR&x&a&4&e&8&5&5&lV&x&d&1&e&0&2&f&lE&x&f&f&d&8&0&9&lR: &F&L#1'
+      - '&f● &x&1&b&f&f&c&8&lP&x&6&7&f&2&8&8&lI&x&b&3&e&5&4&9&lN&x&f&f&d&8&0&9&lG: &F&L%player_ping%'
+      - '&f● &x&1&b&f&f&c&8&lJ&x&3&8&f&a&b&0&lU&x&5&4&f&5&9&8&lG&x&7&1&f&0&8&0&lA&x&8&d&e&c&6&9&lD&x&a&a&e&7&5&1&lO&x&c&6&e&2&3&9&lR&x&e&3&d&d&2&1&lE&x&f&f&d&8&0&9&l: &F&L%bungee_total%'
+      - ''
+      - '&f● &x&1&b&f&f&c&8&lI&x&1&b&f&f&c&8&lP: &x&1&b&f&f&c&8&lM&x&2&e&f&c&b&8&lC&x&4&1&f&9&a&8&l.&x&5&4&f&5&9&8&lF&x&6&7&f&2&8&8&lA&x&7&a&e&f&7&8&lX&x&8&d&e&c&6&9&lT&x&a&0&e&8&5&9&lE&x&b&3&e&5&4&9&lR&x&c&6&e&2&3&9&l.&x&d&9&d&f&2&9&lO&x&e&c&d&b&1&9&lR&x&f&f&d&8&0&9&lG'
+#
+# Scoreboard per world configuration
+#
+# If world no exist or is not configured, will use scoreboard section
+scoreboard-world:
+  'world':
+    title: '&b&lSternal&f&lBoard &d&lWORLD'
+    lines:
+      - '&8&m+-------------------+'
+      - '      &6&lWORLD'
+      - '&a&l▼ &bData:'
+      - '&f● &7Nick: &b%player_name%'
+      - '&f● &7Rank: &b%vault_rank%'
+      - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+      - ''
+      - '&a&l▼ &bExample:'
+      - '&f● &7Lobby: &b#1'
+      - '&f● &7Ping: &b%player_ping%'
+      - '&f● &7Players: &b%bungee_total%'
+      - ''
+      - '&f● &fIP: &bplay.yournetwork.com'
+#
+# Scoreboard per permission configuration
+#
+# If permission no exist or is not configured, will use scoreboard section
+#
+# Remember if u use this mode, u need to add permissions to your permission plugin
+# Example: sternalboard.admin, sternalboard.mod, sternalboard.dev, sternalboard.owner
+# If u have op, u will see all scoreboards, remember deny nodes in your permission plugin
+scoreboard-permission:
+  'admin':
+    node: 'sternalboard.admin'
+    title: '&b&lSternal&f&lBoard &d&lADMIN'
+    lines:
+      - '&8&m+-------------------+'
+      - '      &6&lADMIN'
+      - '&a&l▼ &bData:'
+      - '&f● &7Nick: &b%player_name%'
+      - '&f● &7Rank: &b%vault_rank%'
+      - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+      - ''
+      - '&a&l▼ &bExample:'
+      - '&f● &7Lobby: &b#1'
+      - '&f● &7Ping: &b%player_ping%'
+      - '&f● &7Players: &b%bungee_total%'
+      - ''
+      - '&f● &fIP: &bplay.yournetwork.com'
+  'mod':
+    node: 'sternalboard.mod'
+    title: '&b&lSternal&f&lBoard &d&lMOD'
+    lines:
+      - '&8&m+-------------------+'
+      - '      &6&lMOD'
+      - '&a&l▼ &bData:'
+      - '&f● &7Nick: &b%player_name%'
+      - '&f● &7Rank: &b%vault_rank%'
+      - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+      - ''
+      - '&a&l▼ &bExample:'
+      - '&f● &7Lobby: &b#1'
+      - '&f● &7Ping: &b%player_ping%'
+      - '&f● &7Players: &b%bungee_total%'
+      - ''
+      - '&f● &fIP: &bplay.yournetwork.com'
+  'dev':
+    node: 'sternalboard.dev'
+    title: '&b&lSternal&f&lBoard &d&lDEV'
+    lines:
+      - '&8&m+-------------------+'
+      - '      &6&lDEV'
+      - '&a&l▼ &bData:'
+      - '&f● &7Nick: &b%player_name%'
+      - '&f● &7Rank: &b%vault_rank%'
+      - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+      - ''
+      - '&a&l▼ &bExample:'
+      - '&f● &7Lobby: &b#1'
+      - '&f● &7Ping: &b%player_ping%'
+      - '&f● &7Players: &b%bungee_total%'
+      - ''
+      - '&f● &fIP: &bplay.yournetwork.com'
+  'owner':
+    node: 'sternalboard.owner'
+    title: '&b&lSternal&f&lBoard &d&lOWNER'
+    lines:
+        - '&8&m+-------------------+'
+        - '      &6&lOWNER'
+        - '&a&l▼ &bData:'
+        - '&f● &7Nick: &b%player_name%'
+        - '&f● &7Rank: &b%vault_rank%'
+        - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+        - ''
+        - '&a&l▼ &bExample:'
+        - '&f● &7Lobby: &b#1'
+        - '&f● &7Ping: &b%player_ping%'
+        - '&f● &7Players: &b%bungee_total%'
+        - ''
+        - '&f● &fIP: &bplay.yournetwork.com'
+
+
+
+

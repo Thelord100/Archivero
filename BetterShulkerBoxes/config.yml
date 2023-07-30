@@ -1,0 +1,38 @@
+#  ___      _   _             ___ _        _ _             ___
+# | _ ) ___| |_| |_ ___ _ _  / __| |_ _  _| | |_____ _ _  | _ ) _____ _____ ___
+# | _ \/ -_)  _|  _/ -_) '_| \__ \ ' \ || | | / / -_) '_| | _ \/ _ \ \ / -_|_-<
+# |___/\___|\__|\__\___|_|   |___/_||_\_,_|_|_\_\___|_|   |___/\___/_\_\___/__/  by Rektb
+#
+# To see the default config and information about what each parameter does
+# please visit https://github.com/lMartin3/BetterShulkerBoxesRewritten/blob/master/default_config.yml
+#
+# Contact:
+# GitHub repository: https://github.com/lMartin3/BetterShulkerBoxesRewritten
+# SpigotMC page: https://www.spigotmc.org/resources/bsb-better-shulker-boxes-1-12-1-16.58837/
+# Discord server: https://discord.com/invite/DnAHWMG
+#
+# !!! IMPORTANT !!! Do not change "disable_vulnerable_version_protection" unless you are 100% sure of what you're doing
+
+config_version: 4.1.1
+open_sound: BLOCK_SHULKER_BOX_OPEN
+close_sound: BLOCK_SHULKER_BOX_CLOSE
+cooldown: 300
+requires_permission: false
+enable_read_only: true
+enable_right_click_open: true
+enable_inventory_click_open: true
+disable_movement_check: false
+enable_chest_sort_hook: true
+enable_world_guard_hook: true
+blacklist_regions: true
+region_list:
+- region1
+disable_vulnerable_version_protection: true
+prefix: '&b[&eBSB&b] &r'
+inventory_name: < %shulker_name% >
+open_message: '&7Opening shulkerbox (%shulker_name%)...'
+close_message: '&7Closing shulkerbox (%shulker_name%)...'
+no_permission_message: '&cNo permission'
+cooldown_message: '&cYou have to wait %minutes% minutes and %seconds% before using
+  this again'
+enable_statistics: true

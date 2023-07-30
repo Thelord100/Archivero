@@ -1,0 +1,53 @@
+# This global group will be applied to all players
+globalGroup:
+  prefix: ''
+  tabname: ''
+  suffix: ''
+
+groups:
+  # Vault group name OR player name OR custom group name (custom is assigned via permission)
+  exampleGroup:
+    prefix: '&a[&cStaff&a]&6 '
+    tabname: '%player-displayname%'
+    suffix: '&7 <12>'
+  
+  founder:
+    prefix: '&x&0&0&d&1&f&f&l[&x&1&4&b&7&f&f&lF&x&2&8&9&d&f&f&lO&x&3&b&8&3&f&f&lU&x&4&f&6&9&f&f&lN&x&6&3&4&e&f&f&lD&x&7&7&3&4&f&f&lE&x&8&a&1&a&f&f&lR&x&9&e&0&0&f&f&l]
+      -&F&L '
+  heroe:
+    prefix: '&x&9&7&f&f&b&b&l[&x&8&2&f&6&c&5&lH&x&6&c&e&e&c&e&lE&x&5&7&e&5&d&8&lR&x&4&1&d&c&e&2&lO&x&2&c&d&3&e&c&lE&x&1&6&c&b&f&5&l]
+      &x&0&1&c&2&f&f&l-&f&L '
+  experimentado+:
+    prefix: '&x&5&b&6&b&f&b&l[&x&6&5&6&9&f&a&lE&x&6&f&6&6&f&9&lX&x&7&9&6&4&f&8&lP&x&8&4&6&2&f&7&lE&x&8&e&5&f&f&6&lR&x&9&8&5&d&f&5&lI&x&a&2&5&a&f&4&lM&x&a&c&5&8&f&3&lE&x&b&6&5&6&f&2&lN&x&c&0&5&3&f&1&lT&x&c&a&5&1&f&0&lA&x&d&5&4&f&e&f&lD&x&d&f&4&c&e&e&lO&x&e&9&4&a&e&d&l+&x&f&3&4&7&e&c&l]
+      &x&f&d&4&5&e&b&l-&f&l '
+  aspirante+:
+    prefix: '&x&7&1&f&f&7&f&l[&x&7&b&f&0&8&a&lA&x&8&5&e&1&9&4&lS&x&8&e&d&2&9&f&lP&x&9&8&c&3&a&a&lI&x&a&2&b&4&b&4&lR&x&a&c&a&5&b&f&lA&x&b&5&9&6&c&a&lN&x&b&f&8&7&d&4&lT&x&c&9&7&8&d&f&lE&x&d&3&6&9&e&a&l+&x&d&c&5&a&f&4&l]
+      &x&e&6&4&b&f&f&l-&f&L '
+  faxter+:
+    prefix: '&x&0&0&1&a&f&f&l[&x&1&c&1&8&f&c&lF&x&3&9&1&6&f&9&lA&x&5&5&1&3&f&7&lX&x&7&1&1&1&f&4&lT&x&8&e&0&f&f&1&lE&x&a&a&0&d&e&e&lR&x&c&6&0&a&e&c&l+&x&e&3&0&8&e&9&l]
+      &x&f&f&0&6&e&6&l-&F&L '
+  aspirante:
+    prefix: '&x&7&1&f&f&7&f&l[&x&7&c&e&f&8&b&lA&x&8&6&d&e&9&6&lS&x&9&1&c&e&a&2&lP&x&9&c&b&e&a&e&lI&x&a&6&a&d&b&9&lR&x&b&1&9&d&c&5&lA&x&b&b&8&c&d&0&lN&x&c&6&7&c&d&c&lT&x&d&1&6&c&e&8&lE&x&d&b&5&b&f&3&l]
+      &x&e&6&4&b&f&f&l-&f&l '
+  experimentado:
+    prefix: '&x&5&b&6&b&f&b&l[&x&6&6&6&8&f&a&lE&x&7&1&6&6&f&9&lX&x&7&b&6&3&f&8&lP&x&8&6&6&1&f&7&lE&x&9&1&5&e&f&6&lR&x&9&c&5&c&f&5&lI&x&a&7&5&9&f&4&lM&x&b&1&5&7&f&2&lE&x&b&c&5&4&f&1&lN&x&c&7&5&2&f&0&lT&x&d&2&4&f&e&f&lA&x&d&d&4&d&e&e&lD&x&e&7&4&a&e&d&lO&x&f&2&4&8&e&c&l]
+      &x&f&d&4&5&e&b&l-&f&l '
+  villano+:
+    prefix: '&x&f&f&0&0&9&9&l[&x&f&2&0&0&a&3&lV&x&e&6&0&0&a&d&lI&x&d&9&0&0&b&8&lL&x&c&c&0&0&c&2&lL&x&c&0&0&0&c&c&lA&x&b&3&0&0&d&6&lN&x&a&6&0&0&e&0&lO&x&9&9&0&0&e&b&l+&x&8&d&0&0&f&5&l]
+      &x&8&0&0&0&f&f&l-&f&l '
+  faxter:
+    prefix: '&x&0&0&1&a&f&f&l[&x&2&0&1&8&f&c&lF&x&4&0&1&5&f&9&lA&x&6&0&1&3&f&6&lX&x&8&0&1&0&f&3&lT&x&9&f&0&e&e&f&lE&x&b&f&0&b&e&c&lR&x&d&f&0&9&e&9&l]
+      &x&f&f&0&6&e&6&l-&F&l '
+  heroe+:
+    prefix: '&x&9&7&f&f&b&b&l[&x&8&4&f&7&c&4&lH&x&7&2&f&0&c&c&lE&x&5&f&e&8&d&5&lR&x&4&c&e&1&d&d&lO&x&3&9&d&9&e&6&lE&x&2&7&d&1&e&e&l+&x&1&4&c&a&f&7&l]
+      &x&0&1&c&2&f&f&l-&f&l '
+  villano:
+    prefix: '&x&f&f&0&0&9&9&l[&x&f&1&0&0&a&4&lV&x&e&3&0&0&b&0&lI&x&d&5&0&0&b&b&lL&x&c&7&0&0&c&6&lL&x&b&8&0&0&d&2&lA&x&a&a&0&0&d&d&lN&x&9&c&0&0&e&8&lO&x&8&e&0&0&f&4&l]
+      &x&8&0&0&0&f&f&l-&f&l '
+  default:
+    prefix: '&#2cfb1a&l[&#28fb2c&lC&#23fc3e&lI&#1ffc50&lV&#1bfc62&lI&#17fc74&lL&#12fd86&l]
+      &#0efd98&l-&F&L '
+  civil:
+    prefix: '[civil] - '
+  pruebas:
+    prefix: '[pruebas] - '
