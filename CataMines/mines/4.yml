@@ -1,0 +1,52 @@
+Mine:
+  ==: de.c4t4lysm.catamines.utils.mine.mines.CuboidCataMine
+  name: '4'
+  region:
+    type: CUBOID
+    world: world
+    p1:
+      ==: org.bukkit.Location
+      world: world
+      x: 155.0
+      y: 72.0
+      z: 317.0
+      pitch: 0.0
+      yaw: 0.0
+    p2:
+      ==: org.bukkit.Location
+      world: world
+      x: 165.0
+      y: 74.0
+      z: 329.0
+      pitch: 0.0
+      yaw: 0.0
+  composition:
+  - block: minecraft:black_glazed_terracotta
+    chance: 100.0
+    addLootTable: false
+    lootTable: []
+  resetMode: PERCENTAGE
+  resetDelay: 0
+  countdown: 0
+  resetPercentage: 10.0
+  replaceMode: false
+  teleportPlayers: false
+  teleportPlayersToResetLocation: true
+  isStopped: true
+  warn:
+    warnHotbar: true
+    warnHotbarMessage: default
+    enableWarn: false
+    warnGlobal: false
+    warnMessage: default
+    resetMessage: default
+    warnSeconds:
+    - 600
+    - 300
+    - 60
+    - 20
+    - 5
+    warnDistance: 5
+  minEfficiencyLvl: 0
+  teleportLocation: null
+  teleportResetLocation: null

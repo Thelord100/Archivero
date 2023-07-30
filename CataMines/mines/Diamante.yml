@@ -1,0 +1,75 @@
+Mine:
+  ==: de.c4t4lysm.catamines.utils.mine.mines.CuboidCataMine
+  name: Diamante
+  region:
+    type: CUBOID
+    world: world
+    p1:
+      ==: org.bukkit.Location
+      world: world
+      x: 54.0
+      y: 27.0
+      z: 178.0
+      pitch: 0.0
+      yaw: 0.0
+    p2:
+      ==: org.bukkit.Location
+      world: world
+      x: 72.0
+      y: 32.0
+      z: 196.0
+      pitch: 0.0
+      yaw: 0.0
+  composition:
+  - block: minecraft:diamond_block
+    chance: 100.0
+    addLootTable: false
+    lootTable:
+    - item:
+        v: 2975
+        type: HONEYCOMB
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFF500","text":"C"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFF500","text":"O"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFF500","text":"I"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFF500","text":"N"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFF500","text":"S"}],"text":""}'
+          enchants:
+            PROTECTION_FIRE: 0
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+      chance: 100.0
+      fortune: false
+  resetMode: TIME
+  resetDelay: 480
+  countdown: 0
+  resetPercentage: 0.0
+  replaceMode: false
+  teleportPlayers: false
+  teleportPlayersToResetLocation: true
+  isStopped: true
+  warn:
+    warnHotbar: true
+    warnHotbarMessage: default
+    enableWarn: false
+    warnGlobal: false
+    warnMessage: default
+    resetMessage: default
+    warnSeconds:
+    - 600
+    - 300
+    - 60
+    - 20
+    - 5
+    warnDistance: 13
+  minEfficiencyLvl: 0
+  teleportLocation:
+    ==: org.bukkit.Location
+    world: world
+    x: 51.5
+    y: 27.0
+    z: 187.5
+    pitch: 1.0495979
+    yaw: -89.89306
+  teleportResetLocation: null

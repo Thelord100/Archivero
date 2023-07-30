@@ -1,0 +1,13 @@
+location: world:68.462:74.117:97.535
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#8fff00&lM&#85fd12&lI&#7bfb24&lN&#70f837&lA &#66f649&lI&#5cf45b&lZ&#52f26d&lU&#48f080&lK&#3ded92&lU
+      &#33eba4&lM&#29e9b6&lI&#1fe7c8&lD&#14e4db&lO&#0ae2ed&lY&#00e0ff&lA'
+    height: 0.3
+  actions: {}

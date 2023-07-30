@@ -1,0 +1,19 @@
+location: world:-26.500:88.000:7.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#fbfbfb&l1 &#fcfcfc&lM&#fcfcfc&lI&#fdfdfd&lN&#fdfdfd&lA'
+    height: 0.3
+  - content: '&#815500&lW&#ab8e55&lO&#d5c6aa&lO&#ffffff&lD'
+    height: 0.3
+  - content: '&#68fd00&lS&#68fd00&lI&#68fd00&lG&#68fd00&lU&#68fd00&lI&#68fd00&lE&#68fd00&lN&#68fd00&lT&#68fd00&lE
+      &#68fd00&lM&#68fd00&lI&#68fd00&lN&#68fd00&lA&#fdfdfd&l:'
+    height: 0.3
+  - content: '&#8fff00&lD&#5ff555&lE&#30eaaa&lK&#00e0ff&lU'
+    height: 0.3
+  actions: {}

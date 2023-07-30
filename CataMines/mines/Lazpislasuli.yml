@@ -1,0 +1,68 @@
+Mine:
+  ==: de.c4t4lysm.catamines.utils.mine.mines.CuboidCataMine
+  name: Lazpislasuli
+  region:
+    type: CUBOID
+    world: world
+    p1:
+      ==: org.bukkit.Location
+      world: world
+      x: -126.0
+      y: 27.0
+      z: 358.0
+      pitch: 0.0
+      yaw: 0.0
+    p2:
+      ==: org.bukkit.Location
+      world: world
+      x: -108.0
+      y: 32.0
+      z: 376.0
+      pitch: 0.0
+      yaw: 0.0
+  composition:
+  - block: minecraft:lapis_block
+    chance: 100.0
+    addLootTable: false
+    lootTable:
+    - item:
+        v: 2975
+        type: LAPIS_LAZULI
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0019FB","text":"C"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0429FB","text":"O"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0839FB","text":"M"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#0C4AFC","text":"P"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#105AFC","text":"R"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#146AFC","text":"E"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#187AFC","text":"S
+            "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#1C8AFC","text":"L"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#209AFC","text":"A"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#24ABFD","text":"P"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#28BBFD","text":"I"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#2CCBFD","text":"S"}],"text":""}'
+          enchants:
+            KNOCKBACK: 0
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+      chance: 100.0
+      fortune: false
+  resetMode: TIME
+  resetDelay: 480
+  countdown: 0
+  resetPercentage: 0.0
+  replaceMode: false
+  teleportPlayers: false
+  teleportPlayersToResetLocation: true
+  isStopped: true
+  warn:
+    warnHotbar: true
+    warnHotbarMessage: default
+    enableWarn: false
+    warnGlobal: false
+    warnMessage: default
+    resetMessage: default
+    warnSeconds:
+    - 600
+    - 300
+    - 60
+    - 20
+    - 5
+    warnDistance: 13
+  minEfficiencyLvl: 0
+  teleportLocation: null
+  teleportResetLocation: null
