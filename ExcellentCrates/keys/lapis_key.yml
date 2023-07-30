@@ -1,0 +1,11 @@
+Name: '#00c0fd&lL#00c0fd&lA#00c0fd&lP#00c0fd&lI#00c0fd&lS #00c0fd&lK#00c0fd&lE#00c0fd&lY'
+Virtual: false
+Item:
+  Material: NAME_TAG
+  Name: '#00C0FD&lL#00C0FD&lA#00C0FD&lP#00C0FD&lI#00C0FD&lS #00C0FD&lK#00C0FD&lE#00C0FD&lY'
+  Enchants:
+    thorns: 0
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_UNBREAKABLE
+  Unbreakable: true

@@ -1,0 +1,48 @@
+Name: '#00c0fd&lL#00c0fd&lA#00c0fd&lP#00c0fd&lI#00c0fd&lS #00c0fd&lC#00c0fd&lR#00c0fd&lA#00c0fd&lT#00c0fd&lE'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - lapis_key
+Block:
+  Locations:
+  - 37.0,87.0,81.0,0.0,0.0,world
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Offset:
+      Y: 1.5
+    Text:
+    - '#00c0fd&lL#00c0fd&lA#00c0fd&lP#00c0fd&lI#00c0fd&lS #00c0fd&lC#00c0fd&lR#00c0fd&lA#00c0fd&lT#00c0fd&lE'
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: REDSTONE
+      Color: 9,42,51
+      Size: 1.0
+Rewards:
+  List:
+    '2':
+      Name: '&a2'
+      Chance: 100.0
+      Rarity: common
+      Broadcast: true
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qcpkn4pbndtp6mnridthmmpbk0400agrfeln78g00
+      Ignored_For_Permissions: []
+Animation_Config: enclosing
+Item:
+  Material: PLAYER_HEAD
+  Head_Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZkN2ZkYjUwZjE0YzczMWM3MjdiMGUwZDE4OWI2YTg3NDMxOWZjMGQ3OWM4YTA5OWFjZmM3N2M3YjJkOTE5NiJ9fX0=
+  Name: '#B3FF5D&lLapiz Crate'
